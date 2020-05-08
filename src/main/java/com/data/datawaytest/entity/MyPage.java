@@ -1,8 +1,6 @@
 package com.data.datawaytest.entity;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /** @author Baijl
  * @date 2020-04-22
@@ -10,8 +8,6 @@ import lombok.NoArgsConstructor;
  * @description
  */
 @Data
-@AllArgsConstructor
-@NoArgsConstructor
 public class MyPage {
     private Integer pageIndex=0;
     private Integer pageSize=3;
